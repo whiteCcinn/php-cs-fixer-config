@@ -1,0 +1,5 @@
+<?php
+$config = new PhpCsFixer\Config\Php56();
+$config->getFinder()->in(dirname(dirname(__DIR__)));
+
+return $config;
